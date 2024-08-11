@@ -1,0 +1,3 @@
+DELETE FROM tbl_tasks;
+INSERT INTO tbl_tasks (title, description, priority, status, creation_date, update_date) VALUES ('Resolver prueba técnica', 'Se debe resolver la prueba técnica encargada.', 'HIGH', 'COMPLETED', '2024-08-09T17:00:20.0906358', '2024-08-09T17:00:20.0906358');
+INSERT INTO tbl_tasks (title, description, priority, status, creation_date, update_date) VALUES ('Contratar al desarrollador', 'Se debe contratar si la prueba técnica resuelve lo requerido', 'HIGH', 'TO_DO', '2024-08-09T17:00:20.0906358', '2024-08-09T17:00:20.0906358');
