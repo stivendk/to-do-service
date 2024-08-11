@@ -49,8 +49,8 @@ Cuerpo de la solicitud:
 {
   "title": "Título de la tarea",
   "description": "Descripción de la tarea",
-  "priority": "ALTA" | "MEDIA" | "BAJA",
-  "status": "ABIERTO" | "CERRADO"
+  "priority": "HIGH" | "MEDIUM" | "LOW",
+  "status": "TO_DO" | "IN_PROGRESS" | "COMPLETED"
 }
 ```
 
@@ -63,8 +63,8 @@ Cuerpo de la solicitud:
 {
   "title": "Título actualizado",
   "description": "Descripción actualizada",
-  "priority": "ALTA" | "MEDIA" | "BAJA",
-  "status": "ABIERTO" | "CERRADO"
+  "priority": "HIGH" | "MEDIUM" | "LOW",
+  "status": "TO_DO" | "IN_PROGRESS" | "COMPLETED"
 }
 ```
 
